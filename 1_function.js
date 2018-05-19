@@ -36,7 +36,7 @@ function sayHello2(
   callback.succeed("that's great");
 }
 
-var ok2 = () => {
+ok2 = () => {
   var obj = {
     name: "go",
     succeed: e => {
